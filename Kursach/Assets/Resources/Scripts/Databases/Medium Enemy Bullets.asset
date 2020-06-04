@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08349677cfeb20b4da35866ba22bba51, type: 3}
+  m_Name: Medium Enemy Bullets
+  m_EditorClassIdentifier: 
+  bulletList:
+  - _damage: 0.5
+    _speed: 40
+    _bullet_material: {fileID: 2100000, guid: 13af762530ee14a49b536ec9dbbb20a6, type: 2}
+  - _damage: 0.8
+    _speed: 50
+    _bullet_material: {fileID: 2100000, guid: 13af762530ee14a49b536ec9dbbb20a6, type: 2}
+  - _damage: 1.2
+    _speed: 50
+    _bullet_material: {fileID: 2100000, guid: 13af762530ee14a49b536ec9dbbb20a6, type: 2}
+  currentBullet:
+    _damage: 1.2
+    _speed: 50
+    _bullet_material: {fileID: 2100000, guid: 13af762530ee14a49b536ec9dbbb20a6, type: 2}

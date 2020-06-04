@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09977465ab5c0234eb82d9a6ac3fc5ad, type: 3}
+  m_Name: Player Database
+  m_EditorClassIdentifier: 
+  playerList:
+  - _health: 9
+    _repair: 2
+    _boom: {fileID: 3790497116979987538, guid: f9f8742b57cad194e96a0975f5781ca1, type: 3}
+    _bullet_value: 10
+    _bullet_add: 2
+    _delay: 0.5
+    _speed: 4
+    _acceleration: 10
+    _bullet_database: {fileID: 11400000, guid: e3154dfa011c40c448adb8688e0336f8, type: 2}
+    _bulletIndex: 0
+    _player_prefab: {fileID: 4969315001207107073, guid: ade7fdacb5495194d9f5a710dc92dd6c,
+      type: 3}
+    _player_hard_data: 1
+  - _health: 12
+    _repair: 4
+    _boom: {fileID: 3790497116979987538, guid: f9f8742b57cad194e96a0975f5781ca1, type: 3}
+    _bullet_value: 20
+    _bullet_add: 1
+    _delay: 1.8
+    _speed: 2.5
+    _acceleration: 5
+    _bullet_database: {fileID: 11400000, guid: e3154dfa011c40c448adb8688e0336f8, type: 2}
+    _bulletIndex: 1
+    _player_prefab: {fileID: 1641147763081665824, guid: 601ac9eb71c4a1d41867fc56c45efcc6,
+      type: 3}
+    _player_hard_data: 2
+  currentPlayer:
+    _health: 9
+    _repair: 2
+    _boom: {fileID: 3790497116979987538, guid: f9f8742b57cad194e96a0975f5781ca1, type: 3}
+    _bullet_value: 10
+    _bullet_add: 2
+    _delay: 0.5
+    _speed: 4
+    _acceleration: 10
+    _bullet_database: {fileID: 11400000, guid: e3154dfa011c40c448adb8688e0336f8, type: 2}
+    _bulletIndex: 0
+    _player_prefab: {fileID: 4969315001207107073, guid: ade7fdacb5495194d9f5a710dc92dd6c,
+      type: 3}
+    _player_hard_data: 1
